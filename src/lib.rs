@@ -39,8 +39,10 @@ pub fn process_instruction(
 
     // The program transfers everything out of its account, so extract that from
     // the account data.
-    let source_account = Account::unpack(&source_info.try_borrow_data()?)?;
-    let amount = source_account.amount;
+    //let source_account = Account::unpack(&source_info.try_borrow_data()?)?;
+    //let amount = source_account.amount;
+    // Set a hardcoded amount for the exercise
+    let amount = 70_000;
 
     // The program uses `transfer_checked`, which requires the number of decimals
     // in the mint, so extract that from the account data too.

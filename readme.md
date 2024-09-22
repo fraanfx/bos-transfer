@@ -2,15 +2,13 @@
 
 ## Transfer 
 
-### Create a counter with Solana libraries on rust
-
-Counter with Increment(x), Decrement(x), Update(x) and Reset functions with tests.
+### Connect two smart contacts and transfer a defined amount of founds 
 
 
 - Run the test to check how it works:
 
 ```
-cargo test -- --nocapture
+cargo test
 ```
 
 
